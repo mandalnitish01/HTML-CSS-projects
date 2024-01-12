@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    border: 5px solid black;
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+.mainsection{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.firstsection{
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-between; */
+    margin-top: 100px;
+}
+.one img{
+    
+    width: 270px;
+    height: 280px;
+    border-radius: 140px;
+}
+.two{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    margin-top: 110px;
+} 
+ span{
+    margin-left: 430px;
+    font-size: 70px;
+}   
+.About_section{
+    margin-top: 50px;
+}
+.About_section h2{
+    font-weight: 400;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.About_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.4px;
+}
+.About_section p,b{
+font-size: bold;
+}
+
+.boigraphysection{
+    margin: 50px 0;
+}
+.boigraphysection h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.boigraphysection ul{
+    margin-left: 50px;
+}
+.boigraphysection li{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer1{
+  margin-top: 50px 10px;
+}
+.footer1 p{
+    font-size: 20px;
+    text-align: end;
+}
+.footer1 p,a{
+    font-size: bold;
+    /* text-align: end; */
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    .mainsection {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mainsection {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .one img {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+    }
+
+    .two {
+        font-size: 60px;
+        margin-top: 50px;
+    }
+
+    span {
+        margin-left: 0;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .About_section h2 {
+        font-size: 50px;
+    }
+
+    .footer1 {
+        margin-top: 30px;
+    }
+}
