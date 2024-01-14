@@ -51,6 +51,10 @@ body{
 }
 h2{
     text-align: center;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
 }
 .section-light{
     background-color: #282e34;
@@ -62,4 +66,10 @@ h2{
 }
 .textbg{
     background-color: #282e34;
+}
+@media(max-width: 460px)
+{
+    .textbg{
+        font-size: 40px;
+    }
 }
