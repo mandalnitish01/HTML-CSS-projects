@@ -1,0 +1,65 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(images/image4.jpg);
+    min-height: 400px;
+}
+.pimg5{
+    background-image: url(images/image5.jpg);
+    min-height: 100%;
+}
+.pimg1 , .pimg2 , .pimg3 , .pimg4 , .pimg5{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: rgb(229, 219, 219);
+    font-size: 70px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.section {
+    padding: 50px 80px;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+.section-light{
+    background-color: #282e34;
+    color: #ddd;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+.textbg{
+    background-color: #282e34;
+}
