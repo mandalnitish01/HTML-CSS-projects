@@ -33,6 +33,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* this line of code show the paralex website  */
     background-attachment: fixed;
 }
 .ptext{
